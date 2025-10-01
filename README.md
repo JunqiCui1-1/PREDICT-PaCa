@@ -1,8 +1,4 @@
 # PREDICT-PaCa
-
-![Figure 1](./Figure%201.png)
-
-# PREDICT-PaCa
 *Calibration-aware ensemble for personalized neoadjuvant therapy and perioperative risk management in resectable pancreatic cancer*
 
 <p align="center">
