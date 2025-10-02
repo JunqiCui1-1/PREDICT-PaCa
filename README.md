@@ -58,7 +58,7 @@
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## Getting Started
-The framework expects (a) preoperative tabular features and (b) curated labels for survival and perioperative outcomes. Typical inputs include cohort splits such as `Chort_train.csv` / `Chort_valid.csv`, along with treatment indicators and timing variables for NAT policy learning.  
+The framework expects (a) preoperative tabular features and (b) curated labels for survival and perioperative outcomes. Typical inputs include cohort splits, along with treatment indicators and timing variables for NAT policy learning.  
 
 
 > **Environment notes**
@@ -94,7 +94,7 @@ Distributed under the MIT License. See `LICENSE` for details.
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## Contact
-Maintainers: Junqi Cui (TBD contact)  
+Maintainers: Junqi Cui (junqi.cui@student.unsw.edu.au)  
 Project Link: [https://github.com/JunqiCui1-1/PREDICT-PaCa](https://github.com/JunqiCui1-1/PREDICT-PaCa)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
