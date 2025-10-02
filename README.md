@@ -3,7 +3,8 @@
 
 <h3 align="center">PREDICT-PaCa</h3>
 <p align="center"><em>A calibration-aware ensemble for personalized neoadjuvant therapy and perioperative risk management in resectable pancreatic cancer</em></p>
-
+<p align="center">
+  <img src="./Figure%201.png" alt="PREDICT-PaCa architecture" width="85%">
 <!-- TABLE OF CONTENTS -->
 <details>
   <summary>Table of Contents</summary>
