@@ -1,0 +1,50 @@
+# Optional dependencies for PREDICT-PaCa
+# Purpose: policy learning / counterfactuals / deep survival / richer viz & configs
+# Tested on Python 3.10–3.11. Install selectively as needed.
+
+############################
+# Causal inference / policy learning
+############################
+econml>=0.15,<0.16           # DR-/X-/T-Learner, policy learning
+dowhy>=0.13,<0.14            # identification & refutation tests
+causalml>=0.14,<0.15         # uplift & DR estimators (tabular)
+obp>=0.6,<0.7                # off-policy evaluation toolbox (bandit/DR)
+statsmodels>=0.14,<0.15      # GLM/IV/robust SE (some policy baselines)
+
+############################
+# Survival analysis (beyond lifelines)
+############################
+scikit-survival>=0.22,<0.23  # optional; compiled deps; use wheels if available
+pycox>=0.2,<0.3              # deep survival; requires torch + torchtuples
+torchtuples>=0.2,<0.3
+torch>=2.1,<2.4              # pick CUDA/CPU wheel from pytorch.org if needed
+
+############################
+# Explainability / diagnostics
+############################
+interpret>=0.5,<0.6          # EBM (glassbox) for benchmarks
+alibi>=0.9,<0.10             # counterfactual explanations (tabular)
+shap>=0.45,<0.46             # if not already in base requirements
+
+############################
+# Visualization (for richer reports/notebooks)
+############################
+plotly>=5.22,<5.30
+kaleido>=0.2,<0.3            # static image export for plotly
+seaborn>=0.13,<0.14          # notebooks only; matplotlib remains default
+
+############################
+# Configuration / CLI / logging
+############################
+hydra-core>=1.3,<1.4
+omegaconf>=2.3,<2.4
+pydantic>=2.6,<2.9
+rich>=13.7,<14.0
+tqdm>=4.66,<5.0
+pyyaml>=6.0,<7.0
+
+############################
+# Data utilities
+############################
+polars>=0.20,<0.23           # faster tabular ops (optional)
+pyarrow>=16,<19              # parquet/feather IO
