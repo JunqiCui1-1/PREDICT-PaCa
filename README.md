@@ -1,26 +1,8 @@
 <!-- Improved compatibility of back to top link -->
 <a name="readme-top"></a>
 
-<!-- PROJECT SHIELDS -->
-[![Contributors][contributors-shield]][contributors-url]
-[![Forks][forks-shield]][forks-url]
-[![Stargazers][stars-shield]][stars-url]
-[![Issues][issues-shield]][issues-url]
-[![MIT License][license-shield]][license-url]
-[![LinkedIn][linkedin-shield]][linkedin-url]
-
 <h3 align="center">PREDICT-PaCa</h3>
 <p align="center"><em>A calibration-aware ensemble for personalized neoadjuvant therapy and perioperative risk management in resectable pancreatic cancer</em></p>
-
-<p align="center">
-  <img src="./Figure%201.png" alt="PREDICT-PaCa architecture" width="85%">
-  <br/><br/>
-  <a href="https://github.com/JunqiCui1-1/PREDICT-PaCa/wiki"><strong>Explore the docs »</strong></a>
-  <br/><br/>
-  <a href="https://github.com/JunqiCui1-1/PREDICT-PaCa/issues">Report Bug</a>
-  ·
-  <a href="https://github.com/JunqiCui1-1/PREDICT-PaCa/issues">Request Feature</a>
-</p>
 
 <!-- TABLE OF CONTENTS -->
 <details>
