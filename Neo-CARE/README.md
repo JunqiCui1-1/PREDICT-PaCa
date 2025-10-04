@@ -1,4 +1,4 @@
-## Step 7 — Causal HTE + 3D Visualization
+##Causal HTE + 3D Visualization
 
 **Goal.** Estimate heterogeneous treatment effects (HTE) across timing arms `<4w`, `4–6w`, `>6w` for NAT==1 using a **pairwise DR-learner** (doubly-robust pseudo-outcomes) with GBM models, then visualize:
 - 3D **τ** surfaces (e.g., `<4w` vs `>6w`),
