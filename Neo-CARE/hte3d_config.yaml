@@ -1,0 +1,8 @@
+# Optional config for Step 7 (HTE + 3D)
+random_state: 42
+pi_clip: 0.001
+max_cat_unique: 50
+grid_n: 30
+ice_n: 60
+feature_select: "mi_then_variance"   # or "variance"
+dpi: 400
