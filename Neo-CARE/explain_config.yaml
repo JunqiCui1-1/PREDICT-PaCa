@@ -1,0 +1,19 @@
+# Optional config for Step 8 (Explainability)
+random_state: 42
+pi_clip: 0.001
+weight_trunc_pct: 0.99
+max_cat_unique: 50
+
+weight_step: 0.05
+reg_pref: 0.01
+margin_thresh: 0.01
+overlap_thresh: 0.10
+
+mds_feas_q: 0.25
+penalty: 0.05
+t_r_default: { FFX: 12.0, GemCap: 12.0, CRT: 6.0 }
+buffer_r_default: { FFX: 2.0, GemCap: 2.0, CRT: 3.0 }
+estimate_durations: true
+
+dpi: 400
+n_patient_cards: 20
